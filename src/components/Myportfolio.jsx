@@ -6,7 +6,28 @@ import ProjectCard from "./ProjectCard";
 import { motion, useScroll, useSpring } from "framer-motion";
 import saleshopImg from "../assets/saleshop.png";
 
+import hotelImg from "../assets/hotel.jpg";
+import pandaImg from "../assets/Pandawagons.jpg";
+
 const projects = [
+  {
+    title: "Luxury Hotel",
+    description:
+      "A premium hotel management and booking system designed to provide a seamless user experience for guests and administrators alike.",
+    image: hotelImg,
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "Management System"],
+    githubLink: "https://github.com/UganSinghMaharjan",
+    liveLink: "#",
+  },
+  {
+    title: "PandaWagons",
+    description:
+      "A dynamic web application featuring modern design and responsive layout. Built to demonstrate effective use of contemporary web technologies.",
+    image: pandaImg,
+    tags: ["React", "Tailwind CSS", "MongoDB", "JavaScript", "Web Development"],
+    githubLink: "https://github.com/UganSinghMaharjan",
+    liveLink: "#",
+  },
   {
     title: "SaleShop",
     description:
@@ -15,33 +36,7 @@ const projects = [
     tags: ["PostgreSQL", "Express", "React", "Python", "Tailwind CSS"],
     githubLink: "https://github.com/UganSinghMaharjan",
     liveLink: "http://salesshopnepal.com/",
-  },
-  {
-    title: "AI DocuMind",
-    description:
-      "An advanced AI-powered document analysis tool for extracting data from PDFs and PPTs. Built with Gemini AI integration to provide intelligent summarization and context-aware responses.",
-    image: saleshopImg,
-    tags: ["React", "Node.js", "Gemini AI", "Express", "MongoDB"],
-    githubLink: "https://github.com/UganSinghMaharjan",
-    liveLink: "#",
-  },
-  {
-    title: "Zenith Furniture",
-    description:
-      "A premium furniture e-commerce store with high-end image galleries, advanced search, and a seamless checkout experience. Focused on minimal design and performance.",
-    image: saleshopImg,
-    tags: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Firebase"],
-    githubLink: "https://github.com/UganSinghMaharjan",
-    liveLink: "#",
-  },
-  {
-    title: "ConnectHub",
-    description:
-      "A real-time collaborative workspace platform with group chat, shared task boards, and file sharing. Designed to streamline team communication and project management.",
-    image: saleshopImg,
-    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Socket.io"],
-    githubLink: "https://github.com/UganSinghMaharjan",
-    liveLink: "#",
+    imgClassName: "object-contain bg-black/20",
   },
 ];
 
