@@ -9,6 +9,7 @@ const ProjectCard = ({
   githubLink,
   liveLink,
   index,
+  imgClassName = "object-cover",
 }) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -64,7 +65,7 @@ const ProjectCard = ({
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover scale-[1.02] group-hover:scale-110 transition-transform duration-1000 cubic-bezier(0.22, 1, 0.36, 1)"
+          className={`w-full h-full ${imgClassName} scale-[1.02] group-hover:scale-110 transition-transform duration-1000 cubic-bezier(0.22, 1, 0.36, 1)`}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-bg/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
       </div>
