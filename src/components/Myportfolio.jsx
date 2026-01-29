@@ -8,6 +8,7 @@ import saleshopImg from "../assets/saleshop.png";
 
 import hotelImg from "../assets/hotel.jpg";
 import pandaImg from "../assets/Pandawagons.jpg";
+import goodwillImg from "../assets/Goodwill.png";
 
 const projects = [
   {
@@ -36,6 +37,23 @@ const projects = [
     tags: ["PostgreSQL", "Express", "React", "Python", "Tailwind CSS"],
     githubLink: "https://github.com/UganSinghMaharjan",
     liveLink: "http://salesshopnepal.com/",
+    imgClassName: "object-contain bg-black/20",
+  },
+  {
+    title: "Goodwill Furniture",
+    description:
+      "A dynamic web application featuring the prodcuts of furniture",
+    image: goodwillImg,
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "MongoDB",
+      "JavaScript",
+      "Python",
+      "Web Development",
+    ],
+    githubLink: "https://github.com/UganSinghMaharjan",
+    liveLink: "#",
     imgClassName: "object-contain bg-black/20",
   },
 ];
