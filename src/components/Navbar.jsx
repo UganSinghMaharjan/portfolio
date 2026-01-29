@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center p-6">
+    <nav className="fixed top-0 left-0 right-0 z-[100] flex justify-center p-6">
       <div className="glass px-8 py-3 rounded-full flex items-center gap-12">
         <div className="flex gap-8 text-sm font-medium">
           <a href="#home" className="hover:text-blue-400 transition-colors">
